@@ -7,10 +7,11 @@ title: "Practical_One"
 Question 1. Find all rows in “airquality” that have missing values.
 
 ```{r}
+#| echo: false
 data = airquality
 data_missing <- data[!complete.cases(data), ]
 rownames(data_missing)
-|eval: false
 ```
-
-
+Edit
+Edit
+Edit
