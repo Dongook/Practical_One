@@ -10,7 +10,7 @@ Question 1. Find all rows in “airquality” that have missing values.
 data = airquality
 data_missing <- data[!complete.cases(data), ]
 rownames(data_missing)
-#| eval: false
+|eval: false
 ```
 
 
