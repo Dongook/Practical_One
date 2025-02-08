@@ -53,3 +53,13 @@ beta_hat <- solve(t(X) %*% X) %*% t(X) %*% Y
 
 # Display the parameter estimates
 beta_hat
+
+# ============================
+# Question Four
+# ============================
+
+# Fitting the linear regression model
+fit <- lm(cars$dist ~ cars$speed, data = cars)
+
+# Summary of the fitted model
+summary(fit)
