@@ -1,0 +1,22 @@
+project:
+  type: book
+  render:
+  - Practical One.qmd
+  output-dir: docs
+book:
+  title: Statistical Computing
+  sidebar:
+    border: true
+    background: light
+    position: right
+  navbar:
+    search: true
+    background: light
+  chapters:
+  - Practical One.qmd
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-location: left
