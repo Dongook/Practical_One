@@ -1,7 +1,7 @@
 project:
   type: book
   render:
-  - Practical One.qmd
+  - index.qmd
   output-dir: docs
 book:
   title: Statistical Computing
@@ -12,11 +12,12 @@ book:
   navbar:
     search: true
     background: light
-  chapters:
-  - Practical One.qmd
+  chapters: 
+    - index.qmd
 format:
   html:
     theme: cosmo
     toc: true
     toc-depth: 3
     toc-location: left
+    

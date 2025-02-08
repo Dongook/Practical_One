@@ -1,0 +1,12 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistical Computing",
+    "section": "",
+    "text": "0.1 Practical One\nQuestion 1. Find all rows in “airquality” that have missing values.\ndata = airquality\ndata_missing &lt;- data[!complete.cases(data), ]\nrownames(data_missing)\n\n [1] \"5\"   \"6\"   \"10\"  \"11\"  \"25\"  \"26\"  \"27\"  \"32\"  \"33\"  \"34\"  \"35\"  \"36\" \n[13] \"37\"  \"39\"  \"42\"  \"43\"  \"45\"  \"46\"  \"52\"  \"53\"  \"54\"  \"55\"  \"56\"  \"57\" \n[25] \"58\"  \"59\"  \"60\"  \"61\"  \"65\"  \"72\"  \"75\"  \"83\"  \"84\"  \"96\"  \"97\"  \"98\" \n[37] \"102\" \"103\" \"107\" \"115\" \"119\" \"150\"\n\n#| eval: false",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Practical_One</span>"
+    ]
+  }
+]
